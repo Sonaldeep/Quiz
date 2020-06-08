@@ -54,7 +54,7 @@ function populate() {
             guess("btn" + i, choices[i]);
         }
  
-        showProgress();
+        showProgress(); 
     }
 };
  
@@ -66,7 +66,7 @@ function guess(id, guess) {
     }
 };
  
- 
+ // no of questions attempted
 function showProgress() {
     var currentQuestionNumber = quiz.questionIndex + 1;
     var element = document.getElementById("progress");
